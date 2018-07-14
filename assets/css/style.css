@@ -1,6 +1,10 @@
 
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
 nav {
-        border-bottom: 3px solid #777777;  
+        border-bottom: 3px solid #cccccc;  
         background-color: #cccccc; 
 }    
 .navbar-brand {
@@ -49,22 +53,12 @@ a:link, a:focus, a:active, a:visited {
 a:hover {
     color: #4aaaa5;
 }
-/* body {
-    width: auto;
+body {
+        background-image: url(../images/ricepaper2.png);
 }
-
-.main-body {
-    float: left;
-    background-image: url(../images/ricepaper2.png);
-    padding-bottom: 115px;
-    width: 100%;
-    height: auto;
-    clear: both;
-}
-.main-content {
+.content-bkgd {
     width: 960px;
-    background-color: #ffffff;
-    margin: 35px 30px 40px 220px;
+    margin: 35px 30px 40px 10px;
     padding: 20px;
     clear: both;
     float: left;
@@ -74,6 +68,14 @@ a:hover {
     border-top: 3px solid #cccccc;
     clear: both;
 }
+.row h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1.6em;
+    padding: 20px 5px 8px 10px;
+    height: 80px;
+}
+/*
 #teal-line {
     border-top: 10px solid #4aaaa5;
     clear: both;
@@ -95,9 +97,7 @@ footer {
 }
 
 
-h2 {
-    color: #4aaaa5;
-}
+
 
 /* about page */
 .picture-me {
