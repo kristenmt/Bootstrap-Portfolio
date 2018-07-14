@@ -10,6 +10,7 @@ body {
 }
 .container {
     flex: 1;
+    padding-bottom: 110px;
 }
 nav {
         border-bottom: 3px solid #cccccc;  
@@ -71,16 +72,18 @@ body {
     clear: both;
     float: left;
 }
-
+.row {
+    padding: 0px 10px 5px 10px;
+}
 #gray-line {
     border-top: 3px solid #cccccc;
+    padding-top: 30px;
     clear: both;
 }
-
 .row h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 1.6em;
+    font-size: 1.5em;
     padding: 20px 5px 8px 10px;
     height: 80px;
 }
