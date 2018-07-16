@@ -22,8 +22,9 @@ nav {
     font-size: 20px;
     width: 250px;
     height: 80px;
-    margin-left: 120px;
+    margin-left: 140px;
     margin-top: 0px;
+    margin-bottom: -8px;
     float: left;
     text-align: center;
 }
@@ -55,7 +56,7 @@ body {
 }
 .content-bkgd {
     width: 960px;
-    margin: 35px 30px 40px 10px;
+    margin: 35px 30px 40px 40px;
     padding: 20px;
     clear: both;
     float: left;
@@ -131,15 +132,9 @@ p {
 }
 .thumbnail {
     padding-left: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
 }
-/* #link-one, #link-two, #link-three, #link-four, #link-five {
-    position: relative;
-    width: 400px;
-    margin: 20px;
-    padding: 20px;
-    float: left;
-} */
+
 
 /* contact page */
 form {
