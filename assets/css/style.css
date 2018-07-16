@@ -116,24 +116,30 @@ p {
     color: #777777;
 }
 /* portfolio page */
-h4 {
+.caption h4 {
     background-color: #4aaaa5;
     color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1.1em;
     width: 300px;
     position: relative;
     margin-top: -40px;
-    height: 25px;
+    height: 30px;
     text-align: center;
     padding-top: 5px;
     float: left;
 }
-#link-one, #link-two, #link-three, #link-four, #link-five {
+.thumbnail {
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+/* #link-one, #link-two, #link-three, #link-four, #link-five {
     position: relative;
     width: 400px;
     margin: 20px;
     padding: 20px;
     float: left;
-}
+} */
 
 /* contact page */
 form {
