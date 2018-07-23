@@ -132,6 +132,23 @@ p {
     padding-top: 5px;
     float: left;
 }
+.caption-link {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1.1em;
+    width: 300px;
+    position: relative;
+    margin-top: -40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+}
+.caption-link a:hover{
+    color: black;
+    text-decoration: none;
+}
 .thumbnail {
     padding-left: 60px;
     padding-bottom: 80px;
