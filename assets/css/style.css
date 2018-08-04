@@ -1,7 +1,7 @@
-
 body {
     margin: 0 auto;
     padding: 0 auto;
+    background-image: url(../images/ricepaper2.png);
 }
 .main-body {
     display: flex;
@@ -12,6 +12,7 @@ body {
     flex: 1;
     padding-bottom: 110px;
 }
+/* navigation bar */
 nav {
         border-bottom: 3px solid #cccccc;  
         background-color: #cccccc; 
@@ -34,7 +35,6 @@ nav {
 .navbar-nav {
     margin-left: 500px;
 }
-
 li {
     border-right: 1px solid #cccccc;
     padding-right: 10px;
@@ -49,10 +49,6 @@ li:last-child {
 }
 a {
     text-decoration: none;
-}
-
-body {
-        background-image: url(../images/ricepaper2.png);
 }
 .content-bkgd {
     width: 960px;
@@ -76,11 +72,12 @@ body {
     padding: 20px 5px 8px 10px;
     height: 80px;
 }
+/* footer */
 footer {
     float: left;
     clear: both;
     background-color: #777777;
-    height: 60px;
+    height: 90px;
     width: 100%;
     padding-top: 15px;
     margin-left: -9px;
@@ -94,8 +91,10 @@ footer {
     border-top: 10px solid #4aaaa5;
     clear: both;
 }
-
-
+/* .list-group{
+    width: 30%;
+    background-color: none;
+} */
 /* about page */
 .picture-me {
     position: relative;
@@ -110,13 +109,11 @@ footer {
 section {
     width: 100%;
 }
-
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #777777;
     float: left;
-  
 }
 /* portfolio page */
 .caption h4 {
@@ -153,8 +150,6 @@ p {
     padding-left: 60px;
     padding-bottom: 80px;
 }
-
-
 /* contact page */
 form {
     font-family: Arial, Helvetica, sans-serif;
@@ -170,4 +165,7 @@ textarea {
 }
 #submit-button {
     background-color: #4aaaa5;
+}
+#social{
+    margin-top: 15px;
 }
