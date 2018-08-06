@@ -106,6 +106,9 @@ footer {
     width: 20%;
     padding: 20px;
 }
+#my-info{
+    padding-right: 10px;
+}
 section {
     width: 100%;
 }
@@ -169,3 +172,143 @@ textarea {
 #social{
     margin-top: 15px;
 }
+@media screen and (max-width: 980px) {
+    
+    .main-content {
+        margin: 30px 60px 100px 30px;
+       
+    }
+    .content-bkgd{
+        width: auto;
+        margin-right: 30px;
+    }
+    #my-pic {
+        margin-right: 0px;
+    }
+    #my-info{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .picture-me {
+        width: 90%;
+    }
+    h1 {
+        margin-left: 30px;
+    }
+    ul {
+        padding-left: 330px;
+    }
+    /* portfolio page */
+    #link-one, #link-two, #link-three, #link-four, #link-five {
+        padding-left: 15px;
+        width: 250px;
+    }
+    #link-one, #link-three, #link-five {
+        margin-left: 0px;
+    }
+    /* contact page */
+    /* no change needed */
+    
+    @media screen and (max-width: 768px) {
+    
+    .main-content {
+            margin: 20px;
+    }
+    ul {
+        padding-left: 200px;
+    }
+    #my-pic {
+        width: 35%;
+        padding-top: 5px;
+    }
+    
+    /* portfolio page */
+    #link-one, #link-two, #link-three, #link-four, #link-five {
+        padding-left: 10px;
+        padding-right: 0px;
+        width: 280px;
+        height: auto;
+    }
+    
+    /* contact page */
+    /* no change needed */
+    
+    @media screen and (max-width: 640px) {
+    
+    .main-content {
+            
+        width: auto;
+        padding: 15px;
+    }
+    .picture-me {
+        width: 100%;
+    }
+    #my-pic {
+        width: 80%;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+    p {
+        padding-right: 40px;
+        padding-left: 10px;
+        float: right;
+    }
+    header {
+        width: auto;
+        height: auto;
+    }
+    h1 {
+        width: 100%;
+        margin-left: 0;
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    ul {
+        width: 100%;
+    }
+    ul li i {
+        text-align: center;
+    }
+    @keyframes example {
+        from {background-color: #4aaaa5;}
+        to {background-color: #777777;}
+        animation-iteration-count: infinite;
+    }
+    
+    /* portfolio page */
+    #link-one, #link-two, #link-three, #link-four, #link-five {
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+        margin-left: 5px;
+    }
+    #link-one img{
+        width: auto;
+        height: auto;
+    }
+    #link-two img{
+        width: auto;
+        height: auto;
+    }
+    #link-three img{
+        width: auto;
+        height: auto;
+    }
+    #link-four img{
+        width: auto;
+        height: auto;
+    }
+    #link-five img{
+        width: auto;
+        height: auto;
+    }
+    h4 {
+        width: 90%;
+        height: 25px;
+    }
+    /* contact page */
+    form {
+        width: auto;
+    }
+    }
+    }
